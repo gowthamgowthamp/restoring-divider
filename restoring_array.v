@@ -43,7 +43,7 @@ module array (input [7:0] x, input [3:0] y, input bin1, input bin2, input bin3, 
                 out_4 = x[6];
             end
         endcase
-    end // always
+    end // end always
     assign mux1 = out_1;
     assign mux2 = out_2;
     assign mux3 = out_3;
@@ -76,7 +76,7 @@ module array (input [7:0] x, input [3:0] y, input bin1, input bin2, input bin3, 
                 out_8 = mux3;
             end
         endcase
-    end // always
+    end // end always
     assign mux5 = out_5;
     assign mux6 = out_6;
     assign mux7 = out_7;
@@ -109,7 +109,7 @@ module array (input [7:0] x, input [3:0] y, input bin1, input bin2, input bin3, 
                 out_12 = mux7;
             end
         endcase
-    end // always
+    end // end always
     assign mux9 = out_9;
     assign mux10 = out_10;
     assign mux11 = out_11;
@@ -142,5 +142,5 @@ module array (input [7:0] x, input [3:0] y, input bin1, input bin2, input bin3, 
                 r[3] = mux11;
             end
         endcase
-    end // always
+    end // end always 
 endmodule
