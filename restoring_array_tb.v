@@ -34,3 +34,4 @@ module restoring_array_tb;
         #20;
     end
 endmodule
+
