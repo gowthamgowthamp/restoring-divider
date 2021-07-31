@@ -58,24 +58,5 @@ module restoring_array_approximate_tb;
         #20;
         x = 17; y = 5;
         #20;
-
-        // app = 1; appfs = 1;
-        // x = 1; y = 0; a = 1; b = 0; bin = 0;// xov = 4; yov = 5;
-        // #20;
-        // x = 0; y = 1; a = 1; b = 0; bin = 1;// xov = 5; yov = 4;
-        // #20;
-        // x = 1; y = 1; a = 0; b = 1; bin = 0;// xov = 9; yov = 7;
-        // #20;
-        // x = 0; y = 0; a = 0; b = 1; bin = 1;// xov = 7; yov = 9;
-        // #20;
-        // app = 0; appfs = 0;
-        // x = 1; y = 0; a = 1; b = 1; bin = 0;// xov = 3; yov = 5;
-        // #20;
-        // x = 0; y = 1; a = 1; b = 1; bin = 1;// xov = 5; yov = 3;
-        // #20;
-        // x = 1; y = 1; a = 0; b = 0; bin = 0;// xov = 8; yov = 6;
-        // #20;
-        // x = 0; y = 0; a = 0; b = 0; bin = 1;// xov = 6; yov = 8;
-        // #20;
     end
 endmodule
