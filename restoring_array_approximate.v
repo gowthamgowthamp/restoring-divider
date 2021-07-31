@@ -105,10 +105,3 @@ module array (
     assign q[3] = iq3 & ovf;
 endmodule
 
-// module ovf_detect();
-    
-// endmodule
-
-// module restoring_array ();
-    
-// endmodule
